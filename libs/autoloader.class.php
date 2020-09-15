@@ -15,7 +15,6 @@ namespace libs;
 class AutoLoader{
 
 	public static function load($class){
-
 		include APP_ROOT.strtolower(str_replace('\\','/',$class)).".class.php";
 
 	}

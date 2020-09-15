@@ -19,10 +19,11 @@ class Index extends Controller{
 
 	public function index(){
 
-		ObCache::page_init();//页面缓存初始化
-		ob_start();//开启缓存
-		echo "111<br/>";
-		ObCache::page_cache(60);
+		//\libs\ObCache::page_init();//页面缓存初始化
+
+		//ob_start();//开启缓存
+
+		//\libs\ObCache::page_cache(60);
 
 		$index_model =  new \models\Index();
 
@@ -52,8 +53,11 @@ class Index extends Controller{
 		// 	$users[] = $row;
 		// }	
 		// $result->free();
-		// $this->assign('users',$users);
-		// $this->display();
+         $users=[];
+
+		 $this->assign('users',$users);
+
+		 $this->display();
 
 	}
 

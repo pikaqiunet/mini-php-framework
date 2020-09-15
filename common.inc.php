@@ -10,7 +10,6 @@
  *
  */
 
-
 	//定义字符集
 	header("Content-Type:text/html;charset=utf-8");
 
@@ -30,8 +29,12 @@
 	require APP_ROOT.'libs/autoloader.class.php';
 	spl_autoload_register('libs\\AutoLoader::load');
 
-	$logob = new classes\LogObServer();
-	libs\ObException::addObserver($logob);
+	//没用的东西
+	//$logob = new classes\LogObServer();
+	//libs\ObException::addObserver($logob);
+    //$Ob=new libs\ObException('message','123');
+
+
 
 	//url获取要调用控制器和模块
 	libs\Url::__DoUrl();
@@ -40,6 +43,7 @@
 	if(DEBUG_PROFILER_CONFIG){
 		libs\Profiler::start();
 	}
+
 	//初始化接收的控制器和方法处理action请求(反射机制)
 	libs\Action::init(); 
 

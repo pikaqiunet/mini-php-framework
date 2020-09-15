@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cd917596-a184-4731-a75a-ca76406f47ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/controls/Cate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/logobserver.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/logobserver.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/common.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controls/index.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/controls/index.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/autoloader.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/autoloader.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/controller.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/controller.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/obexception.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/obexception.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/url.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/url.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/index.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/index.class.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="PHP File Header" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hVwTRrQYR9quA7fLMOHCAgKugK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cd917596-a184-4731-a75a-ca76406f47ad" name="Default Changelist" comment="" />
+      <created>1600109575209</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600109575209</updated>
+      <workItem from="1600109576373" duration="424000" />
+      <workItem from="1600110026520" duration="256000" />
+      <workItem from="1600126517955" duration="626000" />
+      <workItem from="1600127386743" duration="2927000" />
+      <workItem from="1600130821274" duration="1335000" />
+      <workItem from="1600132198577" duration="98000" />
+      <workItem from="1600134237215" duration="3736000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="654" y="244" key="NewPhpClassDialog" timestamp="1600132215272">
+      <screen x="0" y="23" width="1920" height="1010" />
+    </state>
+    <state x="654" y="244" key="NewPhpClassDialog/0.23.1920.1010@0.23.1920.1010" timestamp="1600132215272" />
+    <state x="778" y="454" key="NewPhpFileDialog" timestamp="1600131997994">
+      <screen x="0" y="23" width="1920" height="1010" />
+    </state>
+    <state x="778" y="454" key="NewPhpFileDialog/0.23.1920.1010@0.23.1920.1010" timestamp="1600131997994" />
+    <state x="542" y="274" key="SettingsEditor" timestamp="1600132153256">
+      <screen x="0" y="23" width="1920" height="1010" />
+    </state>
+    <state x="542" y="274" key="SettingsEditor/0.23.1920.1010@0.23.1920.1010" timestamp="1600132153256" />
+  </component>
+</project>

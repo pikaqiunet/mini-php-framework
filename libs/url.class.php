@@ -20,6 +20,7 @@ class Url{
 	 */
 	public static function __DoUrl(){
 
+
 		if(isset($_SERVER['PATH_INFO'])){
 
 			$pathinfo = explode('/',trim($_SERVER['PATH_INFO'],"/"));

@@ -24,7 +24,6 @@ class LogObserver implements \interf\ObServer{
 	 * @return [type] [description]
 	 */
 	public function trigger(\libs\ObException $oe){
-
 		$message = "\r\n-----------------------------------------------------\r\n";
 		$message .= "错误内容 :{$oe->getMessage()}\n";
 		$message .= "错误号 :{$oe->getCode()}\n";	
@@ -32,7 +31,6 @@ class LogObserver implements \interf\ObServer{
 		$message .= "错误行号 :{$oe->getLine()}\n";			
 		$message .= "错误堆栈信息 :{$oe->getTraceAsString()}\r\n";
 		$message .= "-----------------------------------------------------\n";
-
 		error_log($message);
 
 	}

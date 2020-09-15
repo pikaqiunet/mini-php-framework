@@ -16,7 +16,7 @@ namespace models;
 class Index{
 
 	function index(){
-		return "hello world";
+		//return "hello world";
 	}
 
 }

@@ -31,8 +31,10 @@ abstract class Controller{
     }
 
     function display($file = ''){
+        //echo "111<br/>";
         if(empty($file)){
             $file = strtolower($this->controller_name).'/'.$this->view_name.'.php';
+
         }
         $path = $this->template_dir.'/'.$file;
         extract($this->data);

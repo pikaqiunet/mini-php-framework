@@ -23,6 +23,7 @@ class ObException extends \Exception{
 	 * @param integer $code    [description]
 	 */
 	public function __construct($message = null,$code = 0){
+
 		parent::__construct($message,$code);
 		$this->notify($this);
 	}
@@ -33,6 +34,7 @@ class ObException extends \Exception{
 	 * @param addObServer $ob [description]
 	 */
 	public static function addObServer(\interf\ObServer $ob){
+
 		if(is_object($ob)){
 			self::$observer[] = $ob;
 		}else{
@@ -48,9 +50,12 @@ class ObException extends \Exception{
 	public function notify($ob){
 
 		foreach (self::$observer as $ob) {
-			$ob->trigger($this);	
+
+			$ob->trigger($this);
+
 		}
 
 	}
+
 
 }
