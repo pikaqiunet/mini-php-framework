@@ -15,8 +15,12 @@ namespace models;
 
 class Index{
 
-	function index(){
-		//return "hello world";
+    /**
+     * @param string $a
+     * @return string
+     */
+	function index($a=''){
+		return "hello world";
 	}
 
 }
