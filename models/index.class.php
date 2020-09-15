@@ -20,7 +20,7 @@ class Index{
      * @return string
      */
 	function index($a=''){
-		return "hello world";
+		return "hello world!";
 	}
 
 }
