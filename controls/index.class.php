@@ -25,10 +25,6 @@ class Index extends Controller{
 
 		//\libs\ObCache::page_cache(60);
 
-		$index_model =  new \models\Index();
-
-		echo $index_model->index();
-
 		//memcached使用
 		// $key = 'cxp';
 		// $data = Memcached::getInstance()->get($key);
@@ -48,7 +44,7 @@ class Index extends Controller{
 		//echo new \classes\Vcode();
 
 		//使用数据库分配模版
-		// $result = Proxy::query('select * from user');
+		 $result = Proxy::query('select * from user');
 		// while ($row = $result->fetch_assoc()) {
 		// 	$users[] = $row;
 		// }	

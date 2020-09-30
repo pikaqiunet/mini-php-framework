@@ -23,6 +23,7 @@ class Register{
 	}
 
 	public static function _get($alias){
+
 		return self::$objects[$alias];
 	}
 

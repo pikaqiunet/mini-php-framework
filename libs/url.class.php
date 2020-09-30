@@ -22,7 +22,7 @@ class Url{
 
 
 		if(isset($_SERVER['PATH_INFO'])){
-
+            print_r($_SERVER['PATH_INFO']);
 			$pathinfo = explode('/',trim($_SERVER['PATH_INFO'],"/"));
 			$_GET['control'] = empty($pathinfo[0]) ? 'index' : $pathinfo[0];
 			$_GET['method'] = empty($pathinfo[1]) ? 'index' : $pathinfo[1];

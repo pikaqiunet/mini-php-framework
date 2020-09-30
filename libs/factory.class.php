@@ -21,6 +21,7 @@ class Factory{
         $key = 'database_'.$type;
         $config = new Config(APP_ROOT.'/conf');
 
+
         if ($type == 'slave'){
             $slaves = $config['database']['slave'];
             $db_conf = $slaves[array_rand($slaves)];
@@ -34,6 +35,7 @@ class Factory{
             $db->connect($db_conf['host'], $db_conf['user'], $db_conf['password'], $db_conf['dbname']);
             Register::_set($key, $db);
         }
+        echo $db;
         return $db;
     }
 
